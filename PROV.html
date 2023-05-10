@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button type="textbox"></button>
+
+    <button type="button" onclick="visaText()">Visa texten i konsolen</button>
+
+    <script>
+    //Uppgift 1
+    
+    var upg1 = document.getElementById("test");
+         element.style.color = "red";
+
+    console.log(upg1)
+
+    //Uppgift 2
+
+    function sayHello() 
+    {
+        document.getElementById("demo") = "Hej";
+    }
+
+    sayHello();
+
+    //Uppgift 3
+
+    function multiFive(arr) 
+    {
+        let result = [];
+        for (let i = 0; i < arr.length; i++) 
+        {
+            result.push(arr[i] * 5);
+        }
+        
+        return result;
+    
+    }
+
+
+    //uppgift 4
+
+    function multiply(num1, num2) 
+    {
+        return num1 * num2;
+    }
+
+    let result = multiply(5, 7);
+    
+    console.log(result);
+
+
+    //Uppgift 5
+
+
+    function visaText() 
+    {
+        var textfaltInnehall = document.getElementById("textfalt").value;
+            console.log(textfaltInnehall);
+    }
+
+
+
+  
+    
+    
+
+    
+         
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
